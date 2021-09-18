@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-
                     URL url = new URL("http://192.168.1.110:9898/unlock");
                     URLConnection yc = url.openConnection();
                     BufferedReader in = new BufferedReader(new InputStreamReader(
